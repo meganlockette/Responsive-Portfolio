@@ -36,7 +36,7 @@ nav {
     background-color: #666666;
 }
 
-
+/* get help with media queries*/
 
 @media screen and (max-width: 980px){
      .section{
