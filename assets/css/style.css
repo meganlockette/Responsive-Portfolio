@@ -40,28 +40,29 @@ nav {
 
 @media only screen and (max-width: 980px){
      .section{
-         width: 100%;
+         max-width: 768px;
+         padding: 0 20px;
      }
      .body {
-        width: 100%;
+        max-width: 420px;
      }
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .section{
-        width: 100%;
+        max-width: 100%;
     }
     .body {
-        width: 100%;
+       max-width: 100%;
     }
 }
 
-@media screen and (max-width: 640px){
+@media only screen and (max-width: 640px){
     .section{
-        width: 100%;
+       max-width: 100%;
     }
     .body {
-        width: 100%;
+        max-width: 100%;
     }
 }
 
