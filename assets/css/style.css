@@ -1,6 +1,25 @@
+body {
+    background-image: url(../images/oaklandTree.jpg);
+    background-size: cover;
+}
+#card {
+    text-align: center;
+    width: 960px;
+    margin: 0px auto;
+}
+
+#logo {
+    font-family: Calibri;
+    font-size: larger;
+}
+
 .outline {
     border: 2px solid #dddddd;
     
+}
+
+.box {
+    background: white; 
 }
 
 nav {
@@ -9,8 +28,9 @@ nav {
 }
 
 .name {
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    font-family: Calibri; color: #4aaa52;
+    font-size: large;
 }
 
 .section {
@@ -19,21 +39,34 @@ nav {
 }
 
 .heading {
-    font-family: Georgia, 'Times New Roman', Times, serif; color: #4aaaa5;
+    font-family: Calibri; color: #4aaa52;
     background-color: #ffffff
     
 }
 
-.body {
-    font-family: Arial, Helvetica, sans-serif; color: #777777
+.content {
+    font-family: Calibri; color: black;
+    padding: 20px;
+    
+
 }
 
 .img {
     float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
 }
 
 .footer {
-    background-color: #666666;
+    background-color: white;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif; color: #4aaa52;
 }
 
 /* get help with media queries*/
